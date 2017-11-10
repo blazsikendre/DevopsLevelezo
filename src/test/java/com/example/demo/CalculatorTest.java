@@ -14,8 +14,8 @@ public class CalculatorTest {
     
     @Test
     public void testDiv() {
-        assertEquals(2, calcuator.sum(2, 2));
-        assertEquals(4, calcuator.sum(8, 2));
+        assertEquals(2, calcuator.div(4, 2));
+        assertEquals(4, calcuator.div(8, 2));
     }
 
 }
