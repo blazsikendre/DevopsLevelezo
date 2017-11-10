@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Deploy to Staging') {
             steps {
-               sh 'docker run -d --rm -p 8765:8080 --name levelezo blazsikendre/levelezo-example'
+               sh 'docker run -d --rm -p 8675:8080 --name levelezo blazsikendre/levelezo-example'
             }
         }
         stage('Acceptance Test') {
